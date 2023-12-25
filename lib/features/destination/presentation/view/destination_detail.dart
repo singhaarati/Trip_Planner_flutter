@@ -95,44 +95,44 @@ class DestinationUserView extends ConsumerWidget {
                           ),
                         ),
                         const SizedBox(height: 16),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 0),
-                          child: ElevatedButton(
-                            onPressed: () {
-                              showDialog(
-                                  context: context,
-                                  builder: (context) => AlertDialog(
-                                        title: Text(
-                                            "Are you sure want to delete ${destinationState.singleDestination![index].name}"),
-                                        actions: [
-                                          TextButton(
-                                              onPressed: () {
-                                                Navigator.pop(context);
-                                              },
-                                              child: const Text('No')),
-                                          TextButton(
-                                              onPressed: () {
-                                                Navigator.pop(context);
-                                                ref
-                                                    .read(
-                                                        destinationViewModelProvider
-                                                            .notifier)
-                                                    .deleteDestinationById(
-                                                        context,
-                                                        destinationState
-                                                                .singleDestination![
-                                                            index]);
-                                              },
-                                              child: const Text('Yes')),
-                                        ],
-                                      ));
-                            },
-                            child: const Text(
-                              'Delete Destination',
-                              style: TextStyle(fontSize: 18),
-                            ),
-                          ),
-                        ),
+                        // Padding(
+                        //   padding: const EdgeInsets.symmetric(horizontal: 0),
+                        //   child: ElevatedButton(
+                        //     onPressed: () {
+                        //       showDialog(
+                        //           context: context,
+                        //           builder: (context) => AlertDialog(
+                        //                 title: Text(
+                        //                     "Are you sure want to delete ${destinationState.singleDestination![index].name}"),
+                        //                 actions: [
+                        //                   TextButton(
+                        //                       onPressed: () {
+                        //                         Navigator.pop(context);
+                        //                       },
+                        //                       child: const Text('No')),
+                        //                   TextButton(
+                        //                       onPressed: () {
+                        //                         Navigator.pop(context);
+                        //                         ref
+                        //                             .read(
+                        //                                 destinationViewModelProvider
+                        //                                     .notifier)
+                        //                             .deleteDestinationById(
+                        //                                 context,
+                        //                                 destinationState
+                        //                                         .singleDestination![
+                        //                                     index]);
+                        //                       },
+                        //                       child: const Text('Yes')),
+                        //                 ],
+                        //               ));
+                        //     },
+                        //     child: const Text(
+                        //       'Delete Destination',
+                        //       style: TextStyle(fontSize: 18),
+                        //     ),
+                        //   ),
+                        // ),
                       ],
                     );
                   },

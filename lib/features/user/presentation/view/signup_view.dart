@@ -196,7 +196,7 @@ class _SignUpViewState extends ConsumerState<SignUpView> {
                           }
                           Navigator.popAndPushNamed(
                               context, AppRoute.loginRoute);
-                          //Navigator.pushReplacementNamed(context, '/login');
+                          Navigator.pushReplacementNamed(context, '/login');
                         },
                         child: const Text(
                           'Sign up',

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'bottom_view/about_view.dart';
-import 'bottom_view/add_destination_view.dart';
+//import 'bottom_view/add_destination_view.dart';
 import 'bottom_view/get_booking_view.dart';
 import 'bottom_view/homepage_view.dart';
 import 'bottom_view/profile_view.dart';
@@ -18,7 +18,6 @@ class _NavigatorBarViewState extends ConsumerState<NavigatorBarView> {
   int _selectedIndex = 0;
   List<Widget> lstBottomScreen = [
     const HomePageView(),
-    const AddDestinationView(),
     const AboutView(),
     const GetBookingView(),
     const ProfileView(),
@@ -34,10 +33,6 @@ class _NavigatorBarViewState extends ConsumerState<NavigatorBarView> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.add_a_photo_rounded),
-            label: 'Add Destination',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.question_answer),
