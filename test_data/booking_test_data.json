@@ -1,0 +1,22 @@
+[
+    {
+        "fullname": "Aarati Kumari Singh",
+        "email": "aarati@gmail.com",
+        "date": "2023-07-24T18:15:00.000Z",
+        "time": "11:0",
+        "people": "2",
+        "user": "648a98959522d2310b5dbea1",
+        "destination": "64af85ffd0e677541aceb53f",
+        "id": "64bb4297fe3b7a096810fc21"
+    },
+    {
+        "fullname": "Karna Singh",
+        "email": "karna@gmail.com",
+        "date": "2023-07-25T18:15:00.000Z",
+        "time": "9:17",
+        "people": "5",
+        "user": "648a98959522d2310b5dbea1",
+        "destination": "64af8666d0e677541aceb541",
+        "id": "64bb4dcbfe3b7a096810fc28"
+    }
+]

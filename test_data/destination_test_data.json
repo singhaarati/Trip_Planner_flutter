@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Thamel",
+        "location": "Thamel, Kathmandu",
+        "price": "Rs. 2700",
+        "reviews": [
+            {
+                "text": "It was beautiful place",
+                "user": "648a98959522d2310b5dbea1",
+                "id": "64ba6e8baf996605d089e084"
+            }
+        ],
+        "createdAt": "2023-07-13T05:05:03.112Z",
+        "updatedAt": "2023-07-21T11:42:52.724Z",
+        "picture": "photo8f7cfbf1-3f22-4c5e-af14-aea4aa0e1eff.jpg",
+        "id": "64af85ffd0e677541aceb53f"
+    },
+    {
+        "name": "Chandragiri Hills",
+        "location": "Chandragir Kathmandu",
+        "price": "Rs. 8000",
+        "reviews": [],
+        "createdAt": "2023-07-13T05:06:46.401Z",
+        "updatedAt": "2023-07-14T10:20:34.376Z",
+        "picture": "photo2f9c3fc8-2477-43f1-bc1d-c88f0403bb32.jpg",
+        "id": "64af8666d0e677541aceb541"
+    },
+    {
+        "name": "Garden of Dreams",
+        "location": "Tridevi Sadak, Kathmandu",
+        "price": "Rs. 1500",
+        "reviews": [],
+        "createdAt": "2023-07-14T07:00:11.930Z",
+        "updatedAt": "2023-07-14T10:21:28.381Z",
+        "picture": "photoee3773f6-da5a-4984-bc65-2e73988dce18.jpg",
+        "id": "64b0f27b4d9843f06675c9b8"
+    },
+    {
+        "name": "Pulchowki",
+        "location": "Godavari village,Lalitpur",
+        "price": "Rs. 8000",
+        "reviews": [],
+        "createdAt": "2023-07-21T07:26:44.409Z",
+        "updatedAt": "2023-07-21T11:02:50.814Z",
+        "picture": "photo441c789d-cd81-4c56-8100-ec637ddaefd6.png",
+        "id": "64ba333403eefd6cd0b637cc"
+    }
+]
