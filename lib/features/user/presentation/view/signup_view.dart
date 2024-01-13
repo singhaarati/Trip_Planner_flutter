@@ -224,7 +224,7 @@ class _SignUpViewState extends ConsumerState<SignUpView> {
                                   context); // Navigate back to the login page
                             },
                             child: const Text(
-                              ' Log in',
+                              ' Sign in',
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 16.0,

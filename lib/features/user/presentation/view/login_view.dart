@@ -129,7 +129,7 @@ class _LoginViewState extends ConsumerState<LoginView> {
                           //Navigator.pushReplacementNamed(context, '/home');
                         },
                         child: const Text(
-                          'Login',
+                          'Sign in',
                           style: TextStyle(
                             fontSize: 18.0,
                             fontWeight: FontWeight.bold,
